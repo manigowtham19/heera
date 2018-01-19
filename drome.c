@@ -12,10 +12,10 @@ n=n/10;
 }
 if(s=sum)
 {
-printf("palindrome");
+printf("yes");
 }
 else
 {
-printf("not a palindrome");
+printf("No");
 }
 }
