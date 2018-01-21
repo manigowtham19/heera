@@ -26,4 +26,4 @@ int main()
     printf("%d",a[n]);
    
     return 0;
-}
+
