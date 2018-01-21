@@ -21,8 +21,9 @@ int main()
             }
         }
         printf("%d\t",a[j]);
+    }
     n=(n+1)/2-1;
     printf("%d",a[n]);
-    }
+   
     return 0;
 }
