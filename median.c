@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int n,a[10],i,num;
+    int n,a[10],i,num,j,k,temp;
     printf("enter the limit");
     scanf("%d",&n);
     for(i=0;i<n;i++)
@@ -19,11 +19,10 @@ int main()
                 a[k]=temp;
                 
             }
-        }
-        printf("%d\t",a[j]);
-    }
+        }  
     n=(n+1)/2-1;
     printf("%d",a[n]);
-   
+    }
     return 0;
+}
 
