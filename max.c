@@ -1,14 +1,13 @@
 #include<stdio.h>
 int main()
 {
-int a[20],i,n,l;
-scanf("%d",&n);
-for(i=0;i<n;i++)
+int a[20],i,l;
+for(i=0;i<10;i++)
 {
 scanf("%d",&a[i]);
 }
 l=a[0];
-for(i=0;i<n;i++)
+for(i=0;i<10;i++)
 {
 if(l<a[i])
 {
